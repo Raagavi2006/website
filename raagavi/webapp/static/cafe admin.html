@@ -1,0 +1,148 @@
+<html>
+    <head>
+        <style>
+        html {
+          box-sizing: border-box;
+        }
+        
+        *, *:before, *:after {
+          box-sizing: inherit;
+        }
+        
+        .column {
+          float: left;
+          width: 30%;
+          margin-bottom: 16px;
+          padding: 0 8px;
+        }
+        
+        @media screen and (max-width: 650px) {
+          .column {
+            width: 70%;
+            display: block;
+          }
+        }
+        
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+        
+        .container {
+          padding: 0 16px;
+        }
+        
+        .container::after, .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        
+        .title {
+          color: grey;
+        }
+        
+        .button {
+          border: none;
+          outline: 0;
+          display: inline-block;
+          padding: 8px;
+          color: white;
+          background-color: #000;
+          text-align: center;
+          cursor: pointer;
+          width: 75%;
+        }
+        
+        .button:hover {
+          background-color: #555;
+        }
+        </style>
+    </head>
+    <body style="background-color: antiquewhite;">
+        <center style="background-color: #000;">
+        <h1 style="color: aqua; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: xx-large;">Admin Page</h1>
+        <h2 style="color: aqua; font-family: 'Times New Roman', Times, serif; font-size: xx-large;">Provides administrative support to ensure efficient operation of the office.</h2>
+        <br>
+        </center>
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <img src="owner.jpg" style="width:75%" height="300px">
+              <div class="container">
+                <h1>Zara</h1>
+                <h2 class="title">Owner</h2>
+                <h3>Curates a welcoming space that blends quality coffee, tasty treats, and a sense of community.</h3>
+                <h3>zara887@gmail.com</h3>
+                <p><button class="button">Contact</button></p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="column">
+            <div class="card">
+              <img src="manager.jpg" style="width:75%" height="300px">
+              <div class="container">
+                <h1>Noah</h1>
+                <h2 class="title">Manager</h2>
+                <h3>I oversee daily operations, ensuring smooth service, team coordination, and a welcoming atmosphere for customers.</h3>
+                <h3>noah@gmail.com</h3>
+                <p><button class="button">Contact</button></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+              <img src="accountant.jpg" style="width:75%" height="300px">
+              <div class="container">
+                <h1>Olivia</h1>
+                <h2 class="title">Accountant</h2>
+                <h3>Manages finances, tracks expenses, and ensures profitability while maintaining accurate records for smooth operations.</h3>
+                <h3>oli4456@gmail.com</h3>
+                <p><button class="button">Contact</button></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+              <img src="host.jpg" style="width:75%" height="300px">
+              <div class="container">
+                <h1>Theodore</h1>
+                <h2 class="title">Host</h2>
+                <h3>I warmly greet and guide guests, ensuring they have a pleasant and personalized experience from arrival to departure.</h3>
+                <h3>theo@gmail.com</h3>
+                <p><button class="button">Contact</button></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+              <img src="barista.jpg" style="width:75%" height="300px">
+              <div class="container">
+                <h1>Sophia</h1>
+                <h2 class="title">Barista</h2>
+                <h3>Crafts expertly brewed coffee and espresso drinks while providing friendly, attentive service to create a welcoming atmosphere for every customer.</h3>
+                <h3>sophi@gmail.com</h3>
+                <p><button class="button">Contact</button></p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="column">
+            <div class="card">
+              <img src="store assistant.webp" style="width:75%" height="300px">
+              <div class="container">
+                <h1>Lucas</h1>
+                <h2 class="title">Store Assistant</h2>
+                <h3>Provides friendly customer service, prepares beverages and food, and helps maintain a clean and organized café environment.</h3>
+                <h3>luca334@gmail.com</h3>
+                <p><button class="button">Contact</button></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        </body>
+</html>
